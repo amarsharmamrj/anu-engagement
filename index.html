@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anu & Kumar | Engagement</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&family=Dancing+Script:wght@700&family=Parisienne&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Hero Section -->
+    <section class="hero tilt-element">
+        <div class="petals" id="petals"></div>
+        <div class="hero-content">
+            <h1>Anu & Kumar</h1>
+            <h2>We're Getting Engaged</h2>
+            <div class="date">April 20, 2025</div>
+            <a href="#story" class="btn">Our Love Story</a>
+        </div>
+        <div class="scroll-down" onclick="document.getElementById('story').scrollIntoView({behavior: 'smooth'})">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- welcome Section -->
+    <section class="welcome tilt-element">
+        <img src="ganesh_ji.png" alt="">
+        <img src="ganeshay_namah.png" alt="">
+    </section>
+
+    <!-- coutdown Section -->
+    <section class="countdownBox tilt-element">
+        <h1 class="section-title">Join us in</h1>
+        <div class="countdown" id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story tilt-element" id="story">
+        <div class="container">
+            <h2 class="section-title">Our Love Story</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>Our story began at a mutual friend's wedding. We locked eyes during the reception while dancing to "Can't Help Falling in
+                        Love."</p>
+                    <p>Now we're excited to begin our forever together, surrounded by the people we love most in the
+                        world. We can't wait to celebrate with you!</p>
+                    <a href="#details" class="btn">Engagement Details</a>
+                </div>
+                <div class="story-image">
+                    <img src="bg_m_8.webp" alt="Wedding rings">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section class="details tilt-element" id="details">
+        <div class="container">
+            <h2 class="section-title">The Celebration</h2>
+            <p class="invite">With joy in our hearts, we invite you to witness and bless our union as we tie the knot in holy matrimony.</p>
+            <div class="details-container">
+                <div class="detail-card">
+                    <h3>Shubh Haldi</h3>
+                    <p>Saturday</p>
+                    <p>April 19, 2025</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Subh Vivah</h3>
+                    <p>Sunday</p>
+                    <p>April 20, 2025</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Milan/ Bidai</h3>
+                    <p>Monday</p>
+                    <p>April 21, 2025</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Kanya Bidai</h3>
+                    <p>Wednesday</p>
+                    <p>April 23, 2025</p>
+                </div>
+            </div>
+
+            <!-- Google Map Section -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3548.4560492006444!2d83.58217337544968!3d27.20482807647426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDEyJzE3LjQiTiA4M8KwMzUnMDUuMSJF!5e0!3m2!1sen!2sin!4v1743412025193!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="tilt-element">
+        <div class="container footer-content">
+            <p class="footer-text">Anu & Kumar</p>
+            <p class="footer-text">April 20, 2025 • Kashmariya, Maharajganj, U.P.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"> </script>
+</body>
+
+</html>
